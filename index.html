@@ -10,41 +10,64 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
+    <!-- header-top -->
+    <div class="header-sticky">
+      <div class="header-top container">
+        <!-- logo -->
+        <a href="#!">
+          <div class="logo">
+            <div class="logo__circle"></div>
+            <span class="logo__text">
+              <span class="logo__brand">shine</span>
+              <span class="logo__brand logo__brand--small">smile</span>
+            </span>
+          </div>
+        </a>
+        <!-- navbar -->
+        <nav class="navbar">
+          <ul class="navbar__list">
+            <li class="navbar__item">
+              <a href="#!" class="navbar__link navbar__link--active">Home</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#!" class="navbar__link">Services</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#!" class="navbar__link">About</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#!" class="navbar__link">Doctors</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- action button -->
+        <div class="header-action">
+          <a href="#!" class="header-action__login">Log In</a>
+          <button href="#!" class="btn header-action__signup">Sign Up</button>
+        </div>
+      </div>
+    </div>
     <header class="header">
       <div class="container">
-        <!-- header-top -->
-        <div class="header-top">
-          <!-- logo -->
-          <a href="#!">
-            <div class="logo">
-              <div class="logo__circle"></div>
-              <span class="logo__text">
-                <span class="logo__brand">shine</span>
-                <span class="logo__brand logo__brand--small">smile</span>
-              </span>
+        <!-- header-body -->
+        <div class="header-body">
+          <section class="setion-1">
+            <h1 class="tittle">Exceptional dental care for all ages.</h1>
+            <p class="sub-tittle">
+              Exceptional dental care for all ages. Your great smile begins with
+              a great dentist.
+            </p>
+            <div class="contact">
+              <button class="btn contact__btn">Book Online</button>
+              <span class="contact__phone-number">or call (123) 456-7890</span>
             </div>
-          </a>
-          <!-- navbar -->
-          <nav class="navbar">
-            <ul class="navbar__list">
-              <li class="navbar__item">
-                <a href="#!" class="navbar__link navbar__link--active">Home</a>
-              </li>
-              <li class="navbar__item">
-                <a href="#!" class="navbar__link">Services</a>
-              </li>
-              <li class="navbar__item">
-                <a href="#!" class="navbar__link">About</a>
-              </li>
-              <li class="navbar__item">
-                <a href="#!" class="navbar__link">Doctors</a>
-              </li>
-            </ul>
-          </nav>
-          <div class="header-action">
-            <a href="#!" class="header-action__login">Log In</a>
-            <button href="#!" class="btn header-action__signup">Sign Up</button>
-          </div>
+          </section>
+          <section class="section-2">
+            <figure>
+              <img src="./assets/img/img-01.jpg" alt="" />
+              <img src="./assets/img/img-02.jpg" alt="" />
+            </figure>
+          </section>
         </div>
       </div>
     </header>

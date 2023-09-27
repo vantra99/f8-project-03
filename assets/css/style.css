@@ -39,20 +39,21 @@ a {
   text-decoration: none;
 }
 
-/* header-top */
-.header {
-  background: #10375c;
-}
-.header-top {
-  /* position: sticky;
-  top: 0;
+/*======== header-top ========*/
+.header-sticky {
+  position: sticky;
+  top: -22px;
   right: 0;
-  left: 0; */
-  /* height: 44px; */
-  /* z-index: 1; */
+  left: 0;
+  background: #10375c;
+  z-index: 2;
+}
+
+.header-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: #10375c;
   padding: 30px 0 8px;
 }
 /*========== logo ========= */
@@ -158,4 +159,65 @@ a {
   line-height: 1.75;
   padding: 8px 19px 8px 20px;
   margin-left: 28px;
+}
+
+/* ====== header ===== */
+.header {
+  background: #10375c;
+}
+
+/*============ header-body =========*/
+.header-body {
+  display: flex;
+  align-items: center;
+  height: calc(100vh - 82px);
+  padding: 68px 0 110px;
+}
+
+.tittle {
+  width: 517px;
+  color: #fff;
+  font-size: 7rem;
+  font-weight: 600;
+  line-height: 1.14;
+  letter-spacing: -1.4px;
+}
+
+.sub-tittle {
+  width: 468px;
+  color: #c9d2da;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.67;
+  margin: 22px 0 38px;
+}
+
+.contact__phone-number {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.67;
+  margin-left: 38px;
+}
+.section-2 figure {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 113px;
+}
+
+.section-2 img:first-child {
+  width: 330px;
+  height: 540px;
+  object-position: right;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.section-2 img:last-child {
+  width: 210px;
+  height: 410px;
+  object-fit: cover;
+  object-position: 80%;
+  border-radius: 0 6px 6px 0;
+  z-index: 1;
 }
