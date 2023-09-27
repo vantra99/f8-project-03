@@ -46,7 +46,7 @@ a {
   right: 0;
   left: 0;
   background: #10375c;
-  z-index: 2;
+  z-index: 1;
 }
 
 .header-top {
@@ -219,5 +219,4 @@ a {
   object-fit: cover;
   object-position: 80%;
   border-radius: 0 6px 6px 0;
-  z-index: 1;
 }
