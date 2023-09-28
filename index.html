@@ -11,10 +11,10 @@
   </head>
   <body>
     <!-- header-top -->
-    <div class="header-sticky">
+    <div  class="header-sticky">
       <div class="header-top container">
         <!-- logo -->
-        <a href="#!">
+        <a href="/">
           <div class="logo">
             <div class="logo__circle"></div>
             <span class="logo__text">
@@ -27,10 +27,10 @@
         <nav class="navbar">
           <ul class="navbar__list">
             <li class="navbar__item">
-              <a href="#!" class="navbar__link navbar__link--active">Home</a>
+              <a href="#" class="navbar__link navbar__link--active">Home</a>
             </li>
             <li class="navbar__item">
-              <a href="#!" class="navbar__link">Services</a>
+              <a href="#Service" class="navbar__link">Services</a>
             </li>
             <li class="navbar__item">
               <a href="#!" class="navbar__link">About</a>
@@ -47,10 +47,10 @@
         </div>
       </div>
     </div>
-    <header class="header">
+    <header  class="header">
       <div class="container">
         <!-- header-body -->
-        <div class="header-body">
+        <div  class="header-body">
           <section class="setion-1">
             <h1 class="tittle">Exceptional dental care for all ages.</h1>
             <p class="sub-tittle">
@@ -58,7 +58,7 @@
               a great dentist.
             </p>
             <div class="contact">
-              <button class="btn contact__btn">Book Online</button>
+              <a href="#!" class="btn contact__btn">Book Online</a>
               <span class="contact__phone-number">or call (123) 456-7890</span>
             </div>
           </section>
@@ -71,5 +71,78 @@
         </div>
       </div>
     </header>
+    <main>
+      <div class="container">
+        <!-- services -->
+        <div id="Service" class="services">
+          <h1 class="services__heading">Our services</h1>
+          <p class="services__desc">
+            Exceptional dental care for all ages. Your great smile begins with a
+            great dentist.
+          </p>
+          <div class="services__row">
+            <figure>
+              <img
+                src="./assets/img/services-img.jpg"
+                alt=""
+                class="services__img"
+              />
+            </figure>
+            <div class="services__list">
+              <!-- item-01 -->
+              <section class="services-item">
+                <img
+                  src="./assets/img/services-icon.svg"
+                  alt=""
+                  class="services-item__icon"
+                />
+                <div class="services-item__body">
+                  <p class="services-item__heading line-clamp">Oral Surgery</p>
+                  <p class="services-item__desc line-clamp">
+                    Everything you expect and then some. Cleanings, fillings,
+                    and x-rays.
+                  </p>
+                </div>
+              </section>
+              <!-- item-02 -->
+              <section class="services-item">
+                <img
+                  src="./assets/img/services-icon0203.svg"
+                  alt=""
+                  class="services-item__icon"
+                />
+                <div class="services-item__body">
+                  <div class="services-item__heading line-clamp">Wisdom Teeth Rpval</div>
+                  <p class="services-item__desc line-clamp">
+                    Everything you expect and then some. Cleanings, fillings,
+                    and x-rays.
+                  </p>
+                </div>
+              </section>
+              <!-- item-03 -->
+              <section class="services-item">
+                <img
+                  src="./assets/img/services-icon0203.svg"
+                  alt=""
+                  class="services-item__icon"
+                />
+                <div class="services-item__body">
+                  <v class="services-item__heading line-clamp">
+                    Preventative Dentistry
+                  <pv>
+                  <p class="services-item__desc line-clamp">
+                    Everything you expect and then some. Cleanings, fillings,
+                    and x-rays.
+                  </p>
+                </div>
+              </section>
+              <!-- button -->
+              <button href="#!" class="btn" style="margin-top: 55px;">All Services</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </main>
   </body>
 </html>
