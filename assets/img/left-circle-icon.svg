@@ -1,1 +1,4 @@
-<svg viewBox="0 0 500 500" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><circle cx="249.9" cy="250.4" r="204.7" stroke="#575f66" stroke-miterlimit="10" fill="#575f66" class="fill-000000 stroke-000000"></circle><circle cx="249.9" cy="250.4" fill="#FFFFFF" r="181.8" stroke="#575f66" stroke-miterlimit="10" class="fill-ffffff stroke-000000"></circle><path fill="none" stroke="#575f66" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="22" d="M289.7 317.4 198 249h0l91.6-68.5" class="stroke-000000"></path></svg>
+<svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="18" cy="18" r="17.5" transform="matrix(-1 0 0 1 36 0)" stroke="#575F66"/>
+<path d="M20.5 13L15.5 18L20.5 23" stroke="#575F66" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
